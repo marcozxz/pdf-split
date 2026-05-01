@@ -14,10 +14,6 @@ dist/
 *.egg-info/
 *.egg
 
-# PyInstaller
-*.manifest
-*.spec
-
 # IDE
 .vscode/
 .idea/
