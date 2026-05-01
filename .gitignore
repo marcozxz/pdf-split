@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Build output
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+*.txt
+!requirements.txt
+*.json
+*.png
+*.jpg
+*.jpeg
+
+# Output directories
+split_output/
+page_images/
+
+# Temporary files
+*.tmp
+temp/
