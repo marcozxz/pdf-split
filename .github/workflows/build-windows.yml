@@ -6,7 +6,7 @@ on:
     branches: [ master ]
     paths:
       - 'pdf_unified_tool.py'
-      - 'PDF智能处理工具.spec'
+      - 'pdf_unified_tool.spec'
 
 jobs:
   build-windows:
@@ -30,7 +30,7 @@ jobs:
     
     - name: Build EXE
       run: |
-        pyinstaller --clean "PDF智能处理工具.spec"
+        pyinstaller --clean pdf_unified_tool.spec
     
     - name: Upload artifact
       uses: actions/upload-artifact@v4

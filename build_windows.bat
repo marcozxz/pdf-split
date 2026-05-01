@@ -23,7 +23,7 @@ pip install PyMuPDF rapidocr-onnxruntime==1.3.0 onnxruntime==1.15.1 numpy==1.26.
 
 echo.
 echo [4/4] 开始打包...
-pyinstaller --clean "PDF智能处理工具.spec"
+pyinstaller --clean pdf_unified_tool.spec
 
 echo.
 echo ========================================
